@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "cordova":{
+        "id":"com.hutchind.cordova.plugins.streamingmedia",
+        "platforms":[
+            "ios",
+            "android"
+        ]
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nchutchind/Streaming-Media-Cordova-Plugin.git"
