@@ -6,16 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "cordova":{
-        "id":"com.hutchind.cordova.plugins.streamingmedia",
-        "platforms":[
-            "ios",
-            "android"
-        ]
-    },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nchutchind/Streaming-Media-Cordova-Plugin.git"
+    "url": "git+https://github.com/gkinsman/Streaming-Media-Cordova-Plugin.git"
   },
   "keywords": [
     "media",
@@ -28,7 +21,30 @@
   "author": "Nicholas Hutchind",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin/issues"
+    "url": "https://github.com/gkinsman/Streaming-Media-Cordova-Plugin/issues"
   },
-  "homepage": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin#readme"
+  "homepage": "https://github.com/gkinsman/Streaming-Media-Cordova-Plugin#readme",
+  "platforms": [
+    "ios",
+    "android",
+    "wp8",
+    "windows"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "cordova": {
+   "id": "cordova-plugin-streaming-media",
+   "platforms": [
+     "ios",
+     "android",
+     "browser"
+   ]
+  }
 }
